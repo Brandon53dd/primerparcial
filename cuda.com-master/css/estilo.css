@@ -272,6 +272,23 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
 	font-weight: 400;	
 	text-transform:uppercase;
 }
+
+.portfolio nav{
+    text-align: center;
+    margin-bottom:20px;
+}
+.portfolio .nav-link{
+    color: #fff;
+    border-radius: 5px; 
+    margin-right: 5px;
+    background: #000; 
+}
+.portfolio .nav-link:hover, 
+.portfolio .active{
+ 
+    background: #fff; 
+    color: #000;
+}
 /*END PORTFOLIO SECTION*/
 
 /*BUTTONS*/
@@ -311,6 +328,8 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
 	border-bottom:4px solid #14a58c;
 }
 .green-button a:hover{
+    text-decoration: none;
+    color: #FFF;
 	background:#00B495;
 }
 /*BUTTONS*/
