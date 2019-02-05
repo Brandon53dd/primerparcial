@@ -10,14 +10,13 @@ body{font-family: 'Titillium Web', sans-serif;font-size: 16px;}
 }
 /*HEADER SECTION*/
 header{background: #87509c;}
+header img, header nav{margin-top: 55px;}
+header .nav-link{color: #fff;border-radius: 5px; margin-right: 5px;}
+header .nav-link:hover, header .active{background: #643a79; color: #fff;}
 .section_container{
     width: 100%;  
     padding-bottom: 50px;
 }
-header img, header nav{margin-top: 55px;}
-header .nav-link{color: #fff;border-radius: 5px; margin-right: 5px;}
-header .nav-link:hover, header .active{background: #643a79; color: #fff;}
-
 /*END HEADER SECTION*/
 
 /*WELLCOME SECTION*/
@@ -75,7 +74,7 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
     text-transform: uppercase;
     letter-spacing: 5px;
     -webkit-text-stroke-width: 2px;
-    margin-top:120px;
+    margin-top:100px;
 }
 .wellcome h4 {
     color: #FFF;
@@ -99,7 +98,7 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
     text-transform: uppercase;
     letter-spacing: 5px;
     -webkit-text-stroke-width: 2px;
-    margin-top:120px;
+    margin-top:100px;
 }
 .services h4 {
     color: #FFF;
@@ -149,7 +148,7 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
     text-transform: uppercase;
     letter-spacing: 5px;
     -webkit-text-stroke-width: 2px;
-    margin-top:120px;
+    margin-top:100px;
 }
 .team h4 {
     color:#3c4761;
@@ -208,7 +207,7 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
     text-transform: uppercase;
     letter-spacing: 5px;
     -webkit-text-stroke-width: 2px;
-    margin-top:120px;
+    margin-top:100px;
 }
 .skills h4 {
     color:#3c4761;
@@ -223,16 +222,15 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
     padding: 0 10px;
 }
 .skills .list h3{
-	font-size:1.4em;
+	font-size:1.2em;
  	color:#3c4761;
  	text-align:center;
- 	font-weight:500;
+ 	font-weight:400;
  	text-transform:uppercase;
  	-webkit-text-stroke:2px;
  	letter-spacing:1px;
  	margin-top:10px;
 }
-
 /*END SKILLS SECTION*/
 
 /*PORTFOLIO SECTION*/
@@ -241,7 +239,7 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
     /*height: 900px;*/
 }
 .portfolio img{
-    max-width: 480px;
+    max-width: 97%;
     margin-bottom: 20px;    
 }
 .portfolio h2{
@@ -251,7 +249,7 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
     text-transform: uppercase;
     letter-spacing: 5px;
     -webkit-text-stroke-width: 2px;
-    margin-top:120px;
+    margin-top:100px;
 }
 .portfolio h4 {
     color:#3c4761;
@@ -272,7 +270,6 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
 	font-weight: 400;	
 	text-transform:uppercase;
 }
-
 .portfolio nav{
     text-align: center;
     margin-bottom:20px;
@@ -397,7 +394,31 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
 	background:#e5c37f;
 }
 /*END SEPARATOR*/
+
 .group {
     text-align: center;
     padding: 20px;
 }
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    height: 9% !important;
+    background-color: #344b8e;  
+    padding: 40px 20px !important;
+    
+}
+footer span{
+    font-size: 1.2em !important;        
+    margin-left:20px !important;        
+    margin-right:20px !important;        
+}
+footer a{    
+    color:#fff;
+}
+footer a:hover,
+footer a.active{
+    text-decoration: none;
+    color:#30afde;
+}
+/*END FOOTER*/
