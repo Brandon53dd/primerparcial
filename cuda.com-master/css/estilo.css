@@ -166,7 +166,8 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
 .team .list img{
     max-width:100%;
     max-height: 125px;
-	margin:25px 20px;
+    margin:25px 20px;
+    border-radius: 100%;
 }
 .team .list h3{
 	font-size:1.4em;
@@ -213,6 +214,7 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
 }
 .social_networks li a {
     color: #fff;
+    font-size: 12px;
     text-decoration: none;
 	display:block;
 	background:#bdd1df;
@@ -249,7 +251,7 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
 .green span{
 	background:#14a58c;
 }
-.skyblue span{
+.gray span{
 	background:#c8d9e5;
 }
 /*END SEPARATOR*/
