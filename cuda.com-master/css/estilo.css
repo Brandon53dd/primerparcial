@@ -235,6 +235,86 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
 
 /*END SKILLS SECTION*/
 
+/*PORTFOLIO SECTION*/
+.portfolio{    
+    background-color: #ffdd99;
+    /*height: 900px;*/
+}
+.portfolio img{
+    max-width: 480px;
+    margin-bottom: 20px;    
+}
+.portfolio h2{
+    font-size: 2.2em;
+    color: #3c4761;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    -webkit-text-stroke-width: 2px;
+    margin-top:120px;
+}
+.portfolio h4 {
+    color:#3c4761;
+	font-size:1.2em;
+	text-align:center;
+	font-weight:400;
+	width:70%;
+	margin:0 auto;	
+	padding-top: 1em;
+}
+.portfolio .list{
+    padding: 0 10px;
+}
+.portfolio .list h5{    
+	color:#444;
+	font-size: 1em;
+	text-align: center;
+	font-weight: 400;	
+	text-transform:uppercase;
+}
+/*END PORTFOLIO SECTION*/
+
+/*BUTTONS*/
+.button{
+	text-align:center;
+    margin-top:3em;
+    text-decoration: none;
+}
+.button a{
+    
+	display:inline-block;
+    color:#FFF;
+    font-size:1.2em;
+    text-transform:uppercase;
+    background:#eb7d4b;
+    padding:18px 3em;
+    border-bottom:4px solid #c86a40;
+    border-radius:5px;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   -o-border-radius:5px;
+    -webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+}
+.button a:hover{
+	background:#F78B5A;
+}
+.button a:active{
+	position:relative;
+   	top:5px;
+}
+.green-button a{
+    text-decoration: none;
+	background:#17c2a4;
+	border-bottom:4px solid #14a58c;
+}
+.green-button a:hover{
+	background:#00B495;
+}
+/*BUTTONS*/
+
 /*SOCIAL NETWORKS*/
 .social_networks{   
     
@@ -293,6 +373,9 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
 }
 .gray span{
 	background:#c8d9e5;
+}
+.yellow span{
+	background:#e5c37f;
 }
 /*END SEPARATOR*/
 .group {
